@@ -1,0 +1,97 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4c121/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4c121.dir/build.make CMakeFiles/cmTC_4c121.dir/build
+make[1]: вход в каталог «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_4c121.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4c121.dir/CheckSymbolExists.c.o   -c "/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_4c121
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c121.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4c121.dir/CheckSymbolExists.c.o  -o cmTC_4c121 
+CMakeFiles/cmTC_4c121.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4c121.dir/build.make:97: recipe for target 'cmTC_4c121' failed
+make[1]: *** [cmTC_4c121] Error 1
+make[1]: выход из каталога «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/CMakeFiles/CMakeTmp»
+Makefile:126: recipe for target 'cmTC_4c121/fast' failed
+make: *** [cmTC_4c121/fast] Error 2
+
+File /home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa539/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa539.dir/build.make CMakeFiles/cmTC_aa539.dir/build
+make[1]: вход в каталог «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_aa539.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aa539.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aa539
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa539.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_aa539.dir/CheckFunctionExists.c.o  -o cmTC_aa539 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_aa539.dir/build.make:97: recipe for target 'cmTC_aa539' failed
+make[1]: *** [cmTC_aa539] Error 1
+make[1]: выход из каталога «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/CMakeFiles/CMakeTmp»
+Makefile:126: recipe for target 'cmTC_aa539/fast' failed
+make: *** [cmTC_aa539/fast] Error 2
+
+
+Determining if the function sgesv exists failed with the following output:
+Change Dir: /home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d536e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d536e.dir/build.make CMakeFiles/cmTC_d536e.dir/build
+make[1]: вход в каталог «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_d536e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv   -o CMakeFiles/cmTC_d536e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d536e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d536e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv    -rdynamic CMakeFiles/cmTC_d536e.dir/CheckFunctionExists.c.o  -o cmTC_d536e 
+CMakeFiles/cmTC_d536e.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgesv'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d536e.dir/build.make:97: recipe for target 'cmTC_d536e' failed
+make[1]: *** [cmTC_d536e] Error 1
+make[1]: выход из каталога «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/CMakeFiles/CMakeTmp»
+Makefile:126: recipe for target 'cmTC_d536e/fast' failed
+make: *** [cmTC_d536e/fast] Error 2
+
+
+Determining if the function sgesv_ exists failed with the following output:
+Change Dir: /home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7dcc8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7dcc8.dir/build.make CMakeFiles/cmTC_7dcc8.dir/build
+make[1]: вход в каталог «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_7dcc8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv_   -o CMakeFiles/cmTC_7dcc8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7dcc8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dcc8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv_    -rdynamic CMakeFiles/cmTC_7dcc8.dir/CheckFunctionExists.c.o  -o cmTC_7dcc8 
+CMakeFiles/cmTC_7dcc8.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgesv_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7dcc8.dir/build.make:97: recipe for target 'cmTC_7dcc8' failed
+make[1]: *** [cmTC_7dcc8] Error 1
+make[1]: выход из каталога «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/CMakeFiles/CMakeTmp»
+Makefile:126: recipe for target 'cmTC_7dcc8/fast' failed
+make: *** [cmTC_7dcc8/fast] Error 2
+
+

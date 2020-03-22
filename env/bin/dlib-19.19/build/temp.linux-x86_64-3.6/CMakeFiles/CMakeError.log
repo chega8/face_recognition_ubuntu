@@ -1,0 +1,97 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ecbbf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ecbbf.dir/build.make CMakeFiles/cmTC_ecbbf.dir/build
+make[1]: вход в каталог «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_ecbbf.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_ecbbf.dir/CheckSymbolExists.c.o   -c "/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_ecbbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecbbf.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ecbbf.dir/CheckSymbolExists.c.o  -o cmTC_ecbbf 
+CMakeFiles/cmTC_ecbbf.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ecbbf.dir/build.make:97: recipe for target 'cmTC_ecbbf' failed
+make[1]: *** [cmTC_ecbbf] Error 1
+make[1]: выход из каталога «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/CMakeTmp»
+Makefile:126: recipe for target 'cmTC_ecbbf/fast' failed
+make: *** [cmTC_ecbbf/fast] Error 2
+
+File /home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_faed7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_faed7.dir/build.make CMakeFiles/cmTC_faed7.dir/build
+make[1]: вход в каталог «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_faed7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_faed7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_faed7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faed7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_faed7.dir/CheckFunctionExists.c.o  -o cmTC_faed7 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_faed7.dir/build.make:97: recipe for target 'cmTC_faed7' failed
+make[1]: *** [cmTC_faed7] Error 1
+make[1]: выход из каталога «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/CMakeTmp»
+Makefile:126: recipe for target 'cmTC_faed7/fast' failed
+make: *** [cmTC_faed7/fast] Error 2
+
+
+Determining if the function sgesv exists failed with the following output:
+Change Dir: /home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5cf68/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5cf68.dir/build.make CMakeFiles/cmTC_5cf68.dir/build
+make[1]: вход в каталог «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_5cf68.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv -fPIE   -o CMakeFiles/cmTC_5cf68.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5cf68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cf68.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv    -rdynamic CMakeFiles/cmTC_5cf68.dir/CheckFunctionExists.c.o  -o cmTC_5cf68 
+CMakeFiles/cmTC_5cf68.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgesv'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5cf68.dir/build.make:97: recipe for target 'cmTC_5cf68' failed
+make[1]: *** [cmTC_5cf68] Error 1
+make[1]: выход из каталога «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/CMakeTmp»
+Makefile:126: recipe for target 'cmTC_5cf68/fast' failed
+make: *** [cmTC_5cf68/fast] Error 2
+
+
+Determining if the function sgesv_ exists failed with the following output:
+Change Dir: /home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c699e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c699e.dir/build.make CMakeFiles/cmTC_c699e.dir/build
+make[1]: вход в каталог «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_c699e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv_ -fPIE   -o CMakeFiles/cmTC_c699e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c699e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c699e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv_    -rdynamic CMakeFiles/cmTC_c699e.dir/CheckFunctionExists.c.o  -o cmTC_c699e 
+CMakeFiles/cmTC_c699e.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgesv_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c699e.dir/build.make:97: recipe for target 'cmTC_c699e' failed
+make[1]: *** [cmTC_c699e] Error 1
+make[1]: выход из каталога «/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/CMakeTmp»
+Makefile:126: recipe for target 'cmTC_c699e/fast' failed
+make: *** [cmTC_c699e/fast] Error 2
+
+

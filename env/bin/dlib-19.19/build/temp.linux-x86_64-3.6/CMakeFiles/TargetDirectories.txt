@@ -1,0 +1,8 @@
+/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/rebuild_cache.dir
+/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/dlib_python.dir
+/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/CMakeFiles/edit_cache.dir
+/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/pybind11_build/CMakeFiles/rebuild_cache.dir
+/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/pybind11_build/CMakeFiles/edit_cache.dir
+/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/dlib_build/CMakeFiles/rebuild_cache.dir
+/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/dlib_build/CMakeFiles/dlib.dir
+/home/chega/Рабочий стол/face_recognition/indor-face_recognition/env/bin/dlib-19.19/build/temp.linux-x86_64-3.6/dlib_build/CMakeFiles/edit_cache.dir
